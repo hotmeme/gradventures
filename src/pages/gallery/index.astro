@@ -8,10 +8,13 @@ import { GALLERIES } from "@consts"
 
 const galleries = (await getCollection("galleries"))
   .filter(gallery => !gallery.data.draft)
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
 
 const tags = [...new Set(galleries.flatMap(gallery => gallery.data.tags))]
   .sort((a, b) => a.localeCompare(b))
+
+
+
 ---
 
 <PageLayout title={GALLERIES.TITLE} description={GALLERIES.DESCRIPTION}>
@@ -26,4 +29,3 @@ const tags = [...new Set(galleries.flatMap(gallery => gallery.data.tags))]
     </div>
   </BottomLayout>
 </PageLayout>
-@components/Galleries

@@ -19,6 +19,9 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<"galleries">
 const gallery = Astro.props
 const { title, summary } = gallery.data
+
+
+
 ---
 
 <PageLayout title={title} description={summary}>

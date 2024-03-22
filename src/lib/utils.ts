@@ -5,12 +5,13 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
-export function formatDate(date: Date) {
+export function formatDate(dateInput: Date | string) {
+  const date = new Date(dateInput); // Convert input to a Date object
   return Intl.DateTimeFormat("en-US", {
     month: "short",
     day: "2-digit",
     year: "numeric"
-  }).format(date)
+  }).format(date);
 }
 
 export function readingTime(html: string) {
