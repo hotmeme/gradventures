@@ -1,21 +1,21 @@
 import type { CollectionEntry } from "astro:content"
 import { createEffect, createSignal, For } from "solid-js"
-import ArrowCard from "@components/ArrowCard" // Or rename to suit gallery context, like ImageCard
+import ArrowCard from "@components/ArrowCard"
 import { cn } from "@lib/utils"
 
 type Props = {
-  tags: string[] // This could be categories or tags relevant to your gallery items
-  data: CollectionEntry<"gallery">[] // Now the data is of type 'gallery'
+  tags: string[]
+  data: CollectionEntry<"galleries">[] 
 }
 
-export default function Gallery({ data, tags }: Props) {
+export default function Galleries({ data, tags }: Props) {
   const [filter, setFilter] = createSignal(new Set<string>())
-  const [galleryItems, setGalleryItems] = createSignal<CollectionEntry<"gallery">[]>([])
+  const [galleries, setGalleries] = createSignal<CollectionEntry<"galleries">[]>([])
 
   createEffect(() => {
-    setGalleryItems(data.filter((item) => 
+    setGalleries(data.filter((entry) => 
       Array.from(filter()).every((value) => 
-        item.data.tags.some((tag:string) => 
+        entry.data.tags.some((tag:string) => 
           tag.toLowerCase() === String(value).toLowerCase()
         )
       )
@@ -56,16 +56,14 @@ export default function Gallery({ data, tags }: Props) {
       <div class="col-span-3 sm:col-span-2">
         <div class="flex flex-col">
           <div class="text-sm uppercase mb-2">
-            SHOWING {galleryItems().length} OF {data.length} GALLERY ITEMS
+            SHOWING {galleries().length} OF {data.length} GALLERY ITEMS
           </div>
           <ul class="flex flex-col gap-3">
-            <For each={galleryItems()}>
-              {(item) => (
-                <li>
-                  <ArrowCard entry={item} /> {/* Adjust this to suit gallery items, like using an image-focused component */}
-                </li>
-              )}
-            </For>
+              {galleries().map((gallery) => (
+              <li>
+                <ArrowCard entry={gallery} />
+              </li>
+            ))}
           </ul>
         </div>
       </div>

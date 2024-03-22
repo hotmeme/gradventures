@@ -3,40 +3,27 @@ import { getCollection } from "astro:content"
 import PageLayout from "@layouts/PageLayout.astro"
 import TopLayout from "@layouts/TopLayout.astro"
 import BottomLayout from "@layouts/BottomLayout.astro"
-import Gallery from "@components/Gallery"
-import { GALLERY } from "@consts"
+import Galleries from "@components/Galleries" 
+import { GALLERIES } from "@consts"
 
-const galleries = (await getCollection("gallery"))
+const galleries = (await getCollection("galleries"))
   .filter(gallery => !gallery.data.draft)
-  .map(gallery => ({
-    ...gallery,
-    data: {
-      ...gallery.data,
-      // Safely convert date to Date object
-      date: new Date(gallery.data.date)
-    }
-  }))
-  .sort((a, b) => {
-    // Ensure both dates are valid Date objects before comparing
-    const dateA = new Date(a.data.date);
-    const dateB = new Date(b.data.date);
-    return dateB.getTime() - dateA.getTime();
-  });
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
 
 const tags = [...new Set(galleries.flatMap(gallery => gallery.data.tags))]
   .sort((a, b) => a.localeCompare(b))
 ---
 
-<PageLayout title={GALLERY.TITLE} description={GALLERY.DESCRIPTION}>
+<PageLayout title={GALLERIES.TITLE} description={GALLERIES.DESCRIPTION}>
   <TopLayout>
     <div class="animate page-heading">
-      {GALLERY.TITLE}
+      {GALLERIES.TITLE}
     </div>
   </TopLayout>
   <BottomLayout>
     <div class="animate">
-      <Gallery client:load tags={tags} data={galleries} />
+      <Galleries client:load tags={tags} data={galleries} />
     </div>
   </BottomLayout>
 </PageLayout>
-
+@components/Galleries

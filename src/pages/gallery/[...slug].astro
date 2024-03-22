@@ -6,9 +6,9 @@ import BottomLayout from "@layouts/BottomLayout.astro"
 import ArticleTopLayout from "@layouts/ArticleTopLayout.astro"
 import ArticleBottomLayout from "@layouts/ArticleBottomLayout.astro"
 
-// Create the static projects pages
+// Create the static galleries pages
 export async function getStaticPaths() {
-	const galleries = await getCollection("gallery")
+	const galleries = await getCollection("galleries")
 	return galleries.map((gallery) => ({
 		params: { slug: gallery.slug },
 		props: gallery,
@@ -16,7 +16,7 @@ export async function getStaticPaths() {
 }
 
 // Get the requested project
-type Props = CollectionEntry<"gallery">
+type Props = CollectionEntry<"galleries">
 const gallery = Astro.props
 const { title, summary } = gallery.data
 ---

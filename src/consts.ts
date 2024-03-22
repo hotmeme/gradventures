@@ -26,7 +26,7 @@ export const PROJECTS: Page = {
 }
 
 // Gallery Page 
-export const GALLERY: Page = {
+export const GALLERIES: Page = {
   TITLE: "Gallery",
   DESCRIPTION: "Memories in photographic format",
 }

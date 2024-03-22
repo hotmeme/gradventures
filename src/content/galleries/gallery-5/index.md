@@ -1,7 +1,7 @@
 ---
 title: "This website"
 summary: "A website to track the history of our friendship."
-date: "Mar 23 2004"
+date: "Mar 23 2024"
 draft: false
 tags:
 - History
