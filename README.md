@@ -74,10 +74,5 @@ MIT
 
 # Our Notes
 
-## Sketchy fixes
-
 There was a 7 hour bug in constructing the Gallery page.  
-We fixed it by doing something kind of sketchy:  
-Accepting strings as well as dates.
-Be weary of this as you move forward.
 
