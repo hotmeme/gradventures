@@ -25,6 +25,12 @@ export const PROJECTS: Page = {
   DESCRIPTION: "Recent projects I have worked on.",
 }
 
+// Gallery Page 
+export const GALLERY: Page = {
+  TITLE: "Gallery",
+  DESCRIPTION: "Memories in photographic format",
+}
+
 // Search Page
 export const SEARCH: Page = {
   TITLE: "Search",
@@ -48,6 +54,10 @@ export const LINKS: Links = [
   { 
     TEXT: "Projects", 
     HREF: "/projects", 
+  },
+  { 
+    TEXT: "Gallery", 
+    HREF: "/gallery", 
   },
 ]
 
