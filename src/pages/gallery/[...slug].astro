@@ -1,0 +1,35 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content"
+import PageLayout from "@layouts/PageLayout.astro"
+import TopLayout from "@layouts/TopLayout.astro"
+import BottomLayout from "@layouts/BottomLayout.astro"
+import ArticleTopLayout from "@layouts/ArticleTopLayout.astro"
+import ArticleBottomLayout from "@layouts/ArticleBottomLayout.astro"
+
+// Create the static projects pages
+export async function getStaticPaths() {
+	const galleries = await getCollection("gallery")
+	return galleries.map((gallery) => ({
+		params: { slug: gallery.slug },
+		props: gallery,
+	}))
+}
+
+// Get the requested project
+type Props = CollectionEntry<"gallery">
+const gallery = Astro.props
+const { title, summary } = gallery.data
+---
+
+<PageLayout title={title} description={summary}>
+  <TopLayout>
+    <div class="animate">
+      <ArticleTopLayout entry={gallery} />
+    </div>
+  </TopLayout>
+  <BottomLayout>
+    <div class="animate">
+      <ArticleBottomLayout entry={gallery} />
+    </div>
+  </BottomLayout>
+</PageLayout>
