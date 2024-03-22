@@ -71,3 +71,8 @@ Theme inspired by [Paco Coursey](https://paco.me/), [Lee Robinson](https://leero
 ## 🏛️ License
 
 MIT
+
+# Our Notes
+
+There was a 7 hour bug in constructing the Gallery page.  
+
