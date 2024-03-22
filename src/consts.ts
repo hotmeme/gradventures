@@ -16,13 +16,13 @@ export const WORK: Page = {
 // Blog Page
 export const BLOG: Page = {
   TITLE: "Blog",
-  DESCRIPTION: "Writing on topics I am passionate about.",
+  DESCRIPTION: "Adventures in text form (nerd emoji).",
 }
 
 // Projects Page 
 export const PROJECTS: Page = {
-  TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
+  TITLE: "Art",
+  DESCRIPTION: "Our joint art projects.",
 }
 
 // Search Page
@@ -46,7 +46,7 @@ export const LINKS: Links = [
     HREF: "/blog", 
   },
   { 
-    TEXT: "Projects", 
+    TEXT: "Art", 
     HREF: "/projects", 
   },
 ]
