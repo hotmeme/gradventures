@@ -10,8 +10,8 @@ const { entry } = Astro.props
 const { collection, data, body } = entry
 const { title, summary, date } = data
 
-const demoUrl = collection === "projects" || collection === "gallery" ? data.demoUrl : null
-const repoUrl = collection === "projects" || collection === "gallery" ? data.repoUrl : null
+const demoUrl = collection === "projects" ? data.demoUrl : null
+const repoUrl = collection === "projects" ? data.repoUrl : null
 ---
 
 <div>
