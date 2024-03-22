@@ -9,8 +9,9 @@ type Context = {
 export async function GET(context: Context) {
 	const posts = await getCollection("blog")
   const projects = await getCollection("projects")
+  const galleries = await getCollection("galleries")
 
-  const items = [...posts, ...projects]
+  const items = [...posts, ...projects, ...galleries]
 
   items.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
 
@@ -25,6 +26,7 @@ export async function GET(context: Context) {
       link: item.slug.startsWith("blog")
         ? `/blog/${item.slug}/`
         : `/projects/${item.slug}/`,
+        // TODO should add an else if for galleries
     })),
   })
 }
