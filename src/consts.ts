@@ -9,20 +9,20 @@ export const SITE: Site = {
 
 // Work Page
 export const WORK: Page = {
-  TITLE: "Work",
-  DESCRIPTION: "Places I have worked.",
+  TITLE: "Chronology",
+  DESCRIPTION: "Major chronology of the friendship.",
 }
 
 // Blog Page
 export const BLOG: Page = {
   TITLE: "Blog",
-  DESCRIPTION: "Writing on topics I am passionate about.",
+  DESCRIPTION: "Adventures in text form (nerd emoji).",
 }
 
 // Projects Page 
 export const PROJECTS: Page = {
-  TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
+  TITLE: "Art",
+  DESCRIPTION: "Our joint art projects.",
 }
 
 // Gallery Page 
@@ -44,7 +44,7 @@ export const LINKS: Links = [
     HREF: "/", 
   },
   { 
-    TEXT: "Work", 
+    TEXT: "Chronology", 
     HREF: "/work", 
   },
   { 
@@ -52,7 +52,7 @@ export const LINKS: Links = [
     HREF: "/blog", 
   },
   { 
-    TEXT: "Projects", 
+    TEXT: "Art", 
     HREF: "/projects", 
   },
   { 
@@ -64,11 +64,19 @@ export const LINKS: Links = [
 // Socials
 export const SOCIALS: Socials = [
   { 
-    NAME: "Email",
+    NAME: "Garrett Email",
     ICON: "email", 
-    TEXT: "markhorn.dev@gmail.com",
-    HREF: "mailto:markhorn.dev@gmail.com",
+    TEXT: "garrett@kukier.com",
+    HREF: "mailto:garrett@kukier.com",
   },
+
+  { 
+    NAME: "Ryan Email",
+    ICON: "email", 
+    TEXT: "rchen18@stanford.edu",
+    HREF: "mailto:rchen18@stanford.edu",
+  },
+  /*
   { 
     NAME: "Github",
     ICON: "github",
@@ -87,5 +95,6 @@ export const SOCIALS: Socials = [
     TEXT: "markhorn_dev",
     HREF: "https://twitter.com/markhorn_dev",
   },
+  */
 ]
 
