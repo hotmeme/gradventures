@@ -12,6 +12,7 @@ const posts = (await getCollection("blog"))
 
 const tags = [...new Set(posts.flatMap(post => post.data.tags))]
   .sort((a, b) => a.localeCompare(b))
+
 ---
 
 <PageLayout title={BLOG.TITLE} description={BLOG.DESCRIPTION}>

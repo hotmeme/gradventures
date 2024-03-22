@@ -13,8 +13,6 @@ const galleries = (await getCollection("galleries"))
 const tags = [...new Set(galleries.flatMap(gallery => gallery.data.tags))]
   .sort((a, b) => a.localeCompare(b))
 
-
-
 ---
 
 <PageLayout title={GALLERIES.TITLE} description={GALLERIES.DESCRIPTION}>
