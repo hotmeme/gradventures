@@ -54,11 +54,19 @@ export const LINKS: Links = [
 // Socials
 export const SOCIALS: Socials = [
   { 
-    NAME: "Email",
+    NAME: "Garrett Email",
     ICON: "email", 
-    TEXT: "markhorn.dev@gmail.com",
-    HREF: "mailto:markhorn.dev@gmail.com",
+    TEXT: "garrett@kukier.com",
+    HREF: "mailto:garrett@kukier.com",
   },
+
+  { 
+    NAME: "Ryan Email",
+    ICON: "email", 
+    TEXT: "rchen18@stanford.edu",
+    HREF: "mailto:rchen18@stanford.edu",
+  },
+  /*
   { 
     NAME: "Github",
     ICON: "github",
@@ -77,5 +85,6 @@ export const SOCIALS: Socials = [
     TEXT: "markhorn_dev",
     HREF: "https://twitter.com/markhorn_dev",
   },
+  */
 ]
 
