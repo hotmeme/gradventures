@@ -13,3 +13,5 @@ Summitted Mount Shasta.
 Went to Crater Lake, Oregon.
 
 One of the most legendary and beautiful trips.
+
+[Gallery page](https://grbff.com/galleries/shasta-magic)

@@ -15,4 +15,4 @@ with Alex Liu
 
 Incredible trip. Beautiful. Lovely. The people are lovely.
 
-[Gallery page](https://gallery.grbff.com/projects/vietwan)
+[Gallery page](https://grbff.com/galleries/vietwan)
