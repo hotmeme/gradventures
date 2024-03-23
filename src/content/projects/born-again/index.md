@@ -8,7 +8,7 @@ tags:
 ---
 
 Black and white film photography.  
-Camera: Garrett
+Camera: Garrett  
 Development: Ryan  
 Model: Isa, Ryan
 

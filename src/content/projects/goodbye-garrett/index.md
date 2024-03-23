@@ -9,4 +9,4 @@ tags:
 - Homage
 ---
 
-Text here.
+How it feels to leave.
