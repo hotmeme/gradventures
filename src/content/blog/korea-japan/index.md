@@ -13,4 +13,4 @@ Everything amazing in both places, although more of our time was together in Jap
 
 We agreed on some things regarding the nature of the people in each.  
 
-[Gallery page](https://gradventures.vercel.app/projects/korea-japan)
+[Gallery page](https://gallery.grbff.com/projects/korea-japan)

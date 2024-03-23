@@ -6,7 +6,7 @@ draft: false
 tags:
 - Culture
 - Art
-demoUrl: https://grad-multiverse.vercel.app/light-and-shadow-showcase
+demoUrl: https://gallery.grbff.com/light-and-shadow-showcase
 ---
 
 The final showcase for Ryan's Light and Shadow film photography class  
