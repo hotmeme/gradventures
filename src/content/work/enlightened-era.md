@@ -1,7 +1,7 @@
 ---
 company: "Enlightened Era"
 role: "A time of light and play"
-dateStart: "11/27/2022"
+dateStart: "1/27/2024"
 dateEnd: "Now"
 ---
 

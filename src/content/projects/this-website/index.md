@@ -4,10 +4,11 @@ summary: "A website to track the history of our friendship."
 date: "Mar 23 2024"
 draft: false
 tags:
-- History
+- Historical
 - Code
+- Homage
+repoUrl: https://gradventures.vercel.app/
 ---
 
 This website was designed to track the history of our friendship.  
-Enjoy looking back, reminiscing, and planning the next moves :)  
-find it [here](https://gradventures.vercel.app)!
+Enjoy looking back, reminiscing, and planning our next moves :)

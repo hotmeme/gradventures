@@ -1,7 +1,7 @@
 ---
 company: "Pre-Coachella"
 role: "Exercise. Artistic Darkness"
-dateStart: "09/20/2022"
+dateStart: "03/15/2023"
 dateEnd: "04/21/2023"
 ---
 
