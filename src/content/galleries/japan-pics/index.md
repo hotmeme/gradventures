@@ -1,9 +1,13 @@
 ---
-title: "Japan pics" summary: "Honestly, a video of us dapping"
+title: "Japan pics" summary: "The time we went to Japan"
 date: "Mar 15 2022"
 draft: false
 tags:
-- Video
+- Asia
+- City
+- Temple
+- Culture
+
 ---
 
-https://multiverse.com/
+[Japan Gallery](https://grad-multiverse.vercel.app/japan)
