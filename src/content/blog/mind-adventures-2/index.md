@@ -17,3 +17,7 @@ It was cold and a little windy that night.
 We stared up at the stars and spent a good chunk of the night pointing out patterns to each other, and helping each other to see what each of us saw.  
 We really dove into our writing of the SitCom. Our best story involves an asian girl who paints her nails every night
 and gets mad at herself in the morning for falling asleep late.
+
+Discovered
+- phi  
+what it means to feel
