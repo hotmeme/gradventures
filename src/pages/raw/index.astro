@@ -5,6 +5,9 @@ import ArrowCard from "@components/ArrowCard"
 import StackCard from "@components/StackCard.astro"
 import { SITE, SOCIALS } from "@consts"
 
+import { Image } from 'astro:assets';
+import dapImage from "./dap.jpg";
+
 const posts = (await getCollection("blog"))
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0,3)
@@ -88,10 +91,18 @@ const stack = [
         </div>
       </section>
 
+      <!-- Empty Section for spacing -->
+      <section class="none">
+        <article>
+          <p></p>
+        </article> 
+      </section>
+
       <!-- Image Section -->
       <section class="animate text-center">
-        <img src="/dap.jpg" alt="Dap" class="mx-auto max-w-full h-auto" />
+      <Image src={dapImage} alt="Dap" width="500" class="mx-auto max-w-full h-auto" />
       </section>
+
 
     </div>
   </div>
