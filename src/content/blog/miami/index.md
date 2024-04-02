@@ -78,6 +78,7 @@ tags:
 - 3rd McDonald's run day in a row
 - Scuba in Biscayne National Park
     - Open ocean and mangrove forest
+    - Hot boatboy Pablo (title bestowed by Isa and Pierre)
 - Cuban dinner
     - Excessively large Paella
 - Sunset on a dock
