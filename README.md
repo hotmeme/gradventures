@@ -31,7 +31,7 @@ It is primarily Astro, Tailwind and Typescript, with a very small amount of Soli
 - ✅ MDX Support (components in your markdown)
 - ✅ Searchable content (posts and projects)
 
-## ��️ Lightweight
+## 🕊️ Lightweight
 All pages under 100kb (including fonts)
 
 ## ⚡︎ Fast
