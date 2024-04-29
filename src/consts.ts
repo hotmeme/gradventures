@@ -73,8 +73,8 @@ export const SOCIALS: Socials = [
   { 
     NAME: "Ryan Email",
     ICON: "email", 
-    TEXT: "rchen18@stanford.edu",
-    HREF: "mailto:rchen18@stanford.edu",
+    TEXT: "rychen2000@gmail.com",
+    HREF: "mailto:rychen2000@gmail.com",
   },
   /*
   { 
