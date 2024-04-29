@@ -1,10 +1,13 @@
-# Purpose
+# ✍️ Purpose
 
 Epic documentation of all our adventures and history.  
 
-I used an Astro template to begin constructing this website. I retain some of its documentation here.  
+# 👨‍💻 Development Notes
 
-# Astro Sphere Theme Documentation
+I used an Astro template to begin constructing this website. I retain some of its documentation in this README.  
+There was a 7 hour bug in constructing the Gallery page.  
+
+# 🧨 Astro Sphere Theme Documentation
 
 Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog theme based on my personal website.
 
@@ -32,9 +35,11 @@ It is primarily Astro, Tailwind and Typescript, with a very small amount of Soli
 - ✅ Searchable content (posts and projects)
 
 ## 🕊️ Lightweight
+
 All pages under 100kb (including fonts)
 
 ## ⚡︎ Fast
+
 Rendered in ~40ms on localhost
 
 ## 📄 Configuration
@@ -63,12 +68,6 @@ Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, e
 
 Theme inspired by [Paco Coursey](https://paco.me/), [Lee Robinson](https://leerob.io/) and [Hayden Bleasel](https://www.haydenbleasel.com/)
 
-
 ## 🏛️ License
 
 MIT
-
-# Development Notes
-
-There was a 7 hour bug in constructing the Gallery page.  
-
