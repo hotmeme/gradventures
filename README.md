@@ -1,4 +1,10 @@
-![Astro Sphere Lighthouse Score](_astrosphere.jpg)
+# Purpose
+
+Epic documentation of all our adventures and history.  
+
+I used an Astro template to begin constructing this website. I retain some of its documentation here.  
+
+# Astro Sphere Theme Documentation
 
 Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog theme based on my personal website.
 
@@ -25,10 +31,7 @@ It is primarily Astro, Tailwind and Typescript, with a very small amount of Soli
 - ✅ MDX Support (components in your markdown)
 - ✅ Searchable content (posts and projects)
 
-## 💯 Lighthouse score
-![Astro Sphere Lighthouse Score](_lighthouse.png)
-
-## 🕊️ Lightweight
+## ��️ Lightweight
 All pages under 100kb (including fonts)
 
 ## ⚡︎ Fast
@@ -56,13 +59,6 @@ Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, e
 | `npm run lint`            | Run ESLint                                       |
 | `npm run lint:fix`        | Auto-fix ESLint issues                           |
 
-## 🗺️ Roadmap
-
-A few features I plan to implement
-- ⬜ Code Blocks - copy to clipboard
-- ⬜ Article Pages - Table of Contents
-- ⬜ Article Pages - Share on social media
-
 ## ✨ Acknowledgement
 
 Theme inspired by [Paco Coursey](https://paco.me/), [Lee Robinson](https://leerob.io/) and [Hayden Bleasel](https://www.haydenbleasel.com/)
@@ -72,7 +68,7 @@ Theme inspired by [Paco Coursey](https://paco.me/), [Lee Robinson](https://leero
 
 MIT
 
-# Our Notes
+# Development Notes
 
 There was a 7 hour bug in constructing the Gallery page.  
 
