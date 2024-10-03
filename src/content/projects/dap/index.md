@@ -2,7 +2,7 @@
 title: "Dap"
 summary: "A genuine thank you"
 date: "Mar 23 2024"
-draft: false
+draft: true
 tags:
 - Video
 - Homage
